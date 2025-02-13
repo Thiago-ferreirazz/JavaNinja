@@ -2,6 +2,6 @@ package TiposDeDados;
 
 public class Test {
     public static void main(String[] args) {
-        System.out.println("Teste4");
+        System.out.println("Teste5");
     }
 }
