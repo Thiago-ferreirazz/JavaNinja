@@ -1,5 +1,7 @@
 package Condicoes;
 
+import java.util.Scanner;
+
 public class IFEElse {
     public static void main(String[] args) {
 
@@ -9,13 +11,20 @@ public class IFEElse {
          * Objetivo: Passar o ninja de nivel de acordo com o numero de missoes
          * */
 
+        Scanner scanner = new Scanner(System.in);
         // Ninja naruto
-        String nome = "Naruto Uzumaki";
         String rank;
+        System.out.println("Digite o nome do seu ninja: ");
+        String nome = scanner.next();
 
-        int idade = 10;
+
+        System.out.println("Digite a idade do " + nome + ": ");
+        int idade = scanner.nextInt();
+
         boolean hokage = false;
-        short numeroDeMissoes = 9;
+
+        System.out.println("Digite o número de missões do " + nome + ": ");
+        short numeroDeMissoes = scanner.nextShort();
 
 
         /*
@@ -26,14 +35,14 @@ public class IFEElse {
 
         //se (condicao) {faca isso}
         if (numeroDeMissoes == 10 && idade > 15) {
-            System.out.println("Rank: Chunnin");
+            rank = "Chunnin";
         } else if (numeroDeMissoes >= 20) {
-            System.out.println("Rank: Jounin");
+            rank = "Jounin";
         } else {
-            System.out.println("Rank: Gennim");;
+            rank = "Gennim";
         }
+        System.out.println(nome + " é um " + rank);
 
-
-
+        scanner.close();
     }
 }
