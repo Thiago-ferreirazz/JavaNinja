@@ -15,5 +15,10 @@ public class Main {
         Sasuke.nome = "Sasuke Uchiha";
         Sasuke.aldeia = "Aldeia da Folha";
         Sasuke.idade = 17;
+
+        Sasuke.SharinganAtivado();
+
+        System.out.println( Sasuke.EuSouUmNinja(Sasuke.nome, Sasuke.idade));
+
     }
 }
