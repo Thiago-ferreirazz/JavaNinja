@@ -1,4 +1,4 @@
-package Condicoes;
+package NivelFacil;
 
 import java.util.Scanner;
 

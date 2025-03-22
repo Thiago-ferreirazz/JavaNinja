@@ -1,4 +1,4 @@
-package TiposDeDados;
+package NivelFacil.TiposDeDados;
 
 public class Test {
     public static void main(String[] args) {
