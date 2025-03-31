@@ -9,8 +9,13 @@ public class Main {
         Naruto.aldeia = "Aldeia da Folha";
         Naruto.idade = 15;
 
+        Ninja Sakura = new Ninja();
 
-        Ninja Sasuke = new Ninja();
+        Sakura.nome = "Sakura Haruno";
+        Sakura.aldeia = "Aldeia da Folha";
+        Sakura.idade = 16;
+
+        Uchiha Sasuke = new Uchiha();
 
         Sasuke.nome = "Sasuke Uchiha";
         Sasuke.aldeia = "Aldeia da Folha";
