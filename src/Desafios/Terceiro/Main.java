@@ -11,6 +11,7 @@ public class Main {
         int choice;
 
         do {
+            System.out.print("\n1 - Criar ninja\n2 - Mostrar ninjas\n3 - Sair\n ");
             // Usando o método da classe Desafios.Facilities
             choice = Facilities.validarNum(scanner);
 
