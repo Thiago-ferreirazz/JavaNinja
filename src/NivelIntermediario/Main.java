@@ -8,12 +8,8 @@ public class Main {
         Naruto.nome = "Naruto uzumaki";
         Naruto.aldeia = "Aldeia da Folha";
         Naruto.idade = 15;
+        System.out.println(Naruto.HabilidadeEspecial());
 
-        Ninja Sakura = new Ninja();
-
-        Sakura.nome = "Sakura Haruno";
-        Sakura.aldeia = "Aldeia da Folha";
-        Sakura.idade = 16;
 
         Uchiha Sasuke = new Uchiha();
 
@@ -22,8 +18,23 @@ public class Main {
         Sasuke.idade = 17;
 
         Sasuke.SharinganAtivado();
+        System.out.println(Sasuke.HabilidadeEspecial());
 
-        System.out.println( Sasuke.EuSouUmNinja(Sasuke.nome, Sasuke.idade));
+        Haruno Sakura = new Haruno();
+
+        Sakura.nome = "Sakura Haruno";
+        Sakura.aldeia = "Aldeia da Folha";
+        Sakura.idade = 17;
+
+        Sakura.CuraAtivada();
+        Sakura.HabilidadeEspecial();
+
+        Sarada Sarada = new Sarada();
+        Sarada.nome = "Sarada Haruno Uchiha";
+        Sarada.aldeia = "Aldeia da Folha";
+        Sarada.idade = 11;
+
+
 
     }
 }

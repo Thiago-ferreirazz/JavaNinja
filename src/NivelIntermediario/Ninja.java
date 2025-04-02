@@ -8,10 +8,12 @@ public class Ninja {
 // Criar um metodo
 
 
-    public String EuSouUmNinja(String nome,int idade) {
+    public String EuSouUmNinja() {
 
         return "Eu sou um ninja, me chamo " + nome + " e tenho " + idade + " anos";
     }
 
-
+    public String HabilidadeEspecial(){
+        return "Me chamo " + nome + " e essa é minha habilidade especial";
+    }
 }
