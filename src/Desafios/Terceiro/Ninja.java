@@ -14,7 +14,7 @@ public class Ninja {
     }
 
     public void mostrarInformacoes(){
-        System.out.println(nome);
+        System.out.print(nome);
         System.out.println(idade);
         System.out.println(missao);
         System.out.println(status);
